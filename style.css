@@ -1,0 +1,31 @@
+body{
+    background-color: #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+.circle{
+    display:block;
+    position:relative;
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: -10px;
+    margin-left: -10px;
+    animation: zoom 2s ;
+}
+@keyframes zoom {
+    0%{
+        background-color: blue;
+        width:0px;
+        height:0px;
+    }
+    100%{
+        background-color: aqua;
+        width:100px;
+        height:100px;
+    }
+  }
+
+
